@@ -1,4 +1,12 @@
+# Simple Python program for beginners
 
-today ia m good
-=======
-12345678910
+# Ask for user input
+name = input("What's your name? ")
+age = int(input("How old are you? "))
+
+# Do some basic math
+age_in_10_years = age + 10
+
+# Print the result
+print(f"Hi {name}! In 10 years, you'll be {age_in_10_years} years old.")
+
